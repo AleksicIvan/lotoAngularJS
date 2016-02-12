@@ -1,0 +1,30 @@
+<div class="jumbotron">
+ 
+  <h1>LOTO</h1>
+    <br />
+    <h3>Klikni na dugme i dobićeš svoju slučajno izabranu loto kombinaciju!</h3>
+    <h2>Srećno!</h2>
+    <br />
+  
+  <div> 
+    <button type="button" class="btn btn-default" ng-click="lotoKombinacija()">Izaberi</button>
+  </div>
+
+  <br />
+  <br />
+  <br />
+
+  <div class="panel panel-primary">
+      <div class="panel-heading">Izabrana kombinacija glasi:</div>
+      <div id="rezultat" ng-repeat="broj in sviBrojevi"> {{ broj }} </div>
+  </div>
+
+</div>
+
+
+
+</div>
+    
+
+
+
