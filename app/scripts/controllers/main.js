@@ -107,7 +107,7 @@ angular.module('lotoratorApp')
       allNum = arr.length * 7;
       return allNum;
     };
-    console.log(brojSvihKomb(sveKomb));
+    //console.log(brojSvihKomb(sveKomb));
     document.getElementById('statistika').removeAttribute('class');
 
 
@@ -270,12 +270,11 @@ angular.module('lotoratorApp')
       var aa = (($scope.statistikaUcesceUKomb.a / brojSvihKomb(sveKomb)) * 100);
       var procA = Math.round(aa);
       $scope.procenatUcesca.a = procA;
-      console.log($scope.procenatUcesca.a);
+      //console.log($scope.procenatUcesca.a);
       var a = document.getElementById('progresA');
       a.setAttribute('aria-valuenow', procA);
       a.setAttribute('style', 'min-width: 150px;' + ' ' + 'width:' + procA + '%');
-      console.log(procA);
-
+      //console.log(procA);
     }
     izracunajProcA();
 
@@ -283,11 +282,11 @@ angular.module('lotoratorApp')
       var bb = (($scope.statistikaUcesceUKomb.b / brojSvihKomb(sveKomb)) * 100);
       var procB = Math.round(bb);
       $scope.procenatUcesca.b = procB;
-      console.log($scope.procenatUcesca.b);
+      //console.log($scope.procenatUcesca.b);
       var b = document.getElementById('progresB');
       b.setAttribute('aria-valuenow', procB);
       b.setAttribute('style', 'min-width: 150px;' + ' ' + 'width:' + procB + '%');
-      console.log(procB);
+      //console.log(procB);
     }
     izracunajProcB();
 
@@ -295,11 +294,11 @@ angular.module('lotoratorApp')
       var cc = (($scope.statistikaUcesceUKomb.c / brojSvihKomb(sveKomb)) * 100);
       var procC = Math.round(cc);
       $scope.procenatUcesca.c = procC;
-      console.log($scope.procenatUcesca.c);
+      //console.log($scope.procenatUcesca.c);
       var c = document.getElementById('progresC');
       c.setAttribute('aria-valuenow', procC);
       c.setAttribute('style', 'min-width: 150px;' + ' ' + 'width:' + procC + '%');
-      console.log(procC);
+      //console.log(procC);
     }
     izracunajProcC();
 
@@ -307,11 +306,11 @@ angular.module('lotoratorApp')
       var dd = (($scope.statistikaUcesceUKomb.d / brojSvihKomb(sveKomb)) * 100);
       var procD = Math.round(dd);
       $scope.procenatUcesca.d = procD;
-      console.log($scope.procenatUcesca.d);
+      //console.log($scope.procenatUcesca.d);
       var d = document.getElementById('progresD');
       d.setAttribute('aria-valuenow', procD);
       d.setAttribute('style', 'min-width: 150px;' + ' ' + 'width:' + procD + '%');
-      console.log(procD);
+      //console.log(procD);
     }
     izracunajProcD();
 
@@ -319,11 +318,11 @@ angular.module('lotoratorApp')
       var ee = (($scope.statistikaUcesceUKomb.e / brojSvihKomb(sveKomb)) * 100);
       var procE = Math.round(ee);
       $scope.procenatUcesca.e = procE;
-      console.log($scope.procenatUcesca.e);
+      //console.log($scope.procenatUcesca.e);
       var e = document.getElementById('progresE');
       e.setAttribute('aria-valuenow', procE);
       e.setAttribute('style', 'min-width: 150px;' + ' ' + 'width:' + procE + '%');
-      console.log(procE);
+      //console.log(procE);
     }
     izracunajProcE();
 
@@ -331,11 +330,11 @@ angular.module('lotoratorApp')
       var ff = (($scope.statistikaUcesceUKomb.f / brojSvihKomb(sveKomb)) * 100);
       var procF = Math.round(ff);
       $scope.procenatUcesca.f = procF;
-      console.log($scope.procenatUcesca.f);
+      //console.log($scope.procenatUcesca.f);
       var f = document.getElementById('progresF');
       f.setAttribute('aria-valuenow', procF);
       f.setAttribute('style', 'min-width: 150px;' + ' ' + 'width:' + procF + '%');
-      console.log(procF);
+      //console.log(procF);
     }
     izracunajProcF();
 
@@ -343,11 +342,11 @@ angular.module('lotoratorApp')
       var gg = (($scope.statistikaUcesceUKomb.g / brojSvihKomb(sveKomb)) * 100);
       var procG = Math.round(gg);
       $scope.procenatUcesca.g = procG;
-      console.log($scope.procenatUcesca.g);
+      //console.log($scope.procenatUcesca.g);
       var g = document.getElementById('progresG');
       g.setAttribute('aria-valuenow', procG);
       g.setAttribute('style', 'min-width: 150px;' + ' ' + 'width:' + procG + '%');
-      console.log(procG);
+      //console.log(procG);
     }
     izracunajProcG();
   };
