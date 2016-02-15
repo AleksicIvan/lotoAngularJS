@@ -108,3 +108,7 @@ body {
 #kaoFuter {
   font-size: 11px;
 }
+
+.progress-bar {
+  background-color: grey;
+}

@@ -29,15 +29,36 @@
       </p>
       <hr />
     <div id="statistika" class="collapse">
-        <div class="well well-sm">Broj ponavljanja prvog broja u izvučenim kombinacijama je: {{ statistikaUcesceUKomb.a || 0}} </div>
+        <div class="well well-sm">Broj ponavljanja prvog broja u izvučenim kombinacijama je: {{ statistikaUcesceUKomb.a || 0}}</div>
+          <div id="progresA" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="" style="width:50%">{{ procenatUcesca.a }}%</div>
+          </div>
         <div class="well well-sm">Broj ponavljanja drugog broja u izvučenim kombinacijama je: {{ statistikaUcesceUKomb.b || 0}} </div>
+          <div id="progresB" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="" style="width:50%">{{ procenatUcesca.b }}%</div>
+          </div>
         <div class="well well-sm">Broj ponavljanja trećeg broja u izvučenim kombinacijama je: {{ statistikaUcesceUKomb.c || 0 }} </div>
+          <div id="progresC" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="" style="width:50%">{{ procenatUcesca.c }}%</div>
+          </div>
         <div class="well well-sm">Broj ponavljanja četvrtog broja u izvučenim kombinacijama je: {{ statistikaUcesceUKomb.d || 0}} </div>
+          <div id="progresD" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="" style="width:50%">{{ procenatUcesca.d }}%</div>
+          </div>
         <div class="well well-sm">Broj ponavljanja petog broja u izvučenim kombinacijama je: {{ statistikaUcesceUKomb.e || 0}} </div>
+          <div id="progresE" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="" style="width:50%">{{ procenatUcesca.e }}%</div>
+          </div>
         <div class="well well-sm">Broj ponavljanja šestog broja u izvučenim kombinacijama je: {{ statistikaUcesceUKomb.f || 0}} </div>
+          <div id="progresF" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="" style="width:50%">{{ procenatUcesca.f }}%</div>
+          </div>
         <div class="well well-sm">Broj ponavljanja sedmog broja u izvučenim kombinacijama je: {{ statistikaUcesceUKomb.g || 0}} </div>
+          <div id="progresG" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="" style="width:50%">{{ procenatUcesca.g }}%</div>
+          </div>
         <hr />
-        <div id="kaoFuter"class="well well-sm">* Izvučene kombinacije od 2011. godine preuzete sa glavne internet stranice <a href="http://www.lutrija.rs/loto.php">Državne lutrije Srbije</a>.</div>
+        <div id="kaoFuter" class="well well-sm">* Sa glavne internet stranice <a href="http://www.lutrija.rs/loto.php">Državne lutrije Srbije</a> preuzeti su podaci o izvučenim loto kombinacijama od 2011. godine.</div>
     </div>
   </div>
 
