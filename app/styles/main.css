@@ -84,10 +84,27 @@ body {
   }
 }
 
-#rezultat {
-  display: inline;
-  font: 30px arial, sans-serif;
-  text-align: center;
+.rezultatPlus {
+    background-color: grey;
+    display: inline;
+    font: 40px arial, sans-serif;
 }
 
+.rezultat {
+    display: inline;
+    font: 30px arial, sans-serif;
+}
 
+.rezultatMinus {
+    background-color: grey;
+    display: inline;
+    font: 20px arial, sans-serif;
+}
+
+#statistika {
+  text-align: left;
+}
+
+#kaoFuter {
+  font-size: 11px;
+}
